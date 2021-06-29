@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.content-navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+.content-navigation .links{
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 4px;
+}
+.links a{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: chartreuse;
+    margin: 0px 6px;
+    transition:0.4s all;
+}
+.links a:hover{
+    color: rgb(201, 79, 35);
+}
