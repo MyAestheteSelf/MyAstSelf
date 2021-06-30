@@ -28,3 +28,30 @@
 .links a:hover{
     color: rgb(201, 79, 35);
 }
+@media (min-width:360px){
+    .links a{
+        display: none;
+    }
+    .links button{
+        display:flex;
+    }
+}
+@media (min-width:652px){
+    .links a{
+        display: inline;
+    }
+    .links button{
+        display: none;
+    }
+}
+@media (min-width:996px){
+    .links a{
+        display: inline;
+    }
+    .links button{
+        display: none;
+    }
+}
+.links button{
+    z-index: 12;
+}
